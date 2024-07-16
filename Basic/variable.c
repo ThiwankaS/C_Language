@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main (void) {
+
+    printf("-------------------------------------------------------\n");
+    printf(" Variable declaration and intialization in C \n");
+    printf("-------------------------------------------------------\n");
     
     //Varibale declartion and value assiging inline
     int position = 10;
