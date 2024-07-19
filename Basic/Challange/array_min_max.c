@@ -12,7 +12,7 @@ int main(void) {
     int maximum = marks[0]; // Start with the first element as initial maximum
 
     // Loop through each element in the array
-    for(int i = 0; i < length; i++){
+    for(int i = 1; i < length; i++){
         //Initializing the variables with the first value of the array
             // Check for new minimum value
             if(marks[i] < minimum){
