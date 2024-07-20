@@ -8,6 +8,13 @@ int main(void) {
     // Calculate the number of elements in the array (dynamic length)
     int length = sizeof(marks)/sizeof(marks[0]);
     // Bubble sort algorythm implementation
+    /*
+        bubbleSort(array)
+            for i <- 1 to indexOfLastUnsortedElement-1
+                if leftElement > rightElement
+            swap leftElement and rightElement
+        end bubbleSort
+    */
     for(int step = 0; step < length; step++){
             // Flag to track if any swaps were made in a pass (optimization)
             int swap = 0;
@@ -40,6 +47,5 @@ int main(void) {
         printf("| %-8d | %8d | %6d |\n", j, marksCopy[j], marks[j]);
     }
     printf("--------------------------------------\n");
-    
     return 0;
 }
