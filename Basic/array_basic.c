@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
+    
     int marks [] = {91,85,78,96,54,67,69,74,76,32};
     int length = sizeof(marks)/ sizeof(marks[0]);
     double total = 0.0;
