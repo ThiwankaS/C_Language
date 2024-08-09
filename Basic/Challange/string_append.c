@@ -10,6 +10,7 @@ int main(void)
     char s2[] = "wxyz";
     char *s = string_append(s1, s2);
     printf("s : %s\n", s);
+    free(s);
     return 0;
 }
 
